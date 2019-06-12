@@ -14,7 +14,7 @@ http://47.110.129.207:8088
 
 1. 克隆仓库至本地
 2. 进入项目根目录，安装项目依赖，npm install
-3. 修改node_modules\vue-loader\lib\template-compiler\index.js，找到prettier.format(code, { semi: false, parser: 'babylon' })改为prettier.format(code, { semi: false, parser: 'babel' })
+3. 修改node_modules\vue-loader\lib\template-compiler\index.js文件，找到prettier.format(code, { semi: false, parser: 'babylon' })改为prettier.format(code, { semi: false, parser: 'babel' })
 3. 项目中附有完整的搭建过程和相关说明文档，请务必先了解文档
 4. 有问题可联系qq369457642讨论交流
 
